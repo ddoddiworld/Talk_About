@@ -1,0 +1,131 @@
+/* pc버전 CSS */
+@media all and (min-width: 1280px) {
+    :root {
+        --head-color: #383838;
+        --user-color: #b3b6bb;
+        --tag-color: #808080;
+        --diligent-color: #000abf;
+        --comment-color: #67c200;
+        --kind-color: #e0c302;
+    }
+
+    /* common */
+    .user_info {
+        color: var(--user-color);
+        font-size: 1.3rem;
+    }
+
+    .tag {
+        font-size: 1.3rem;
+    }
+
+    .tag li {
+        background: #b4b6bb;
+        border-radius: 10px;
+        padding: 6px 10px;
+        color: #ffffff;
+    }
+
+    .tag span {
+        color: #ffffff;
+    }
+
+    #type_diligent {
+        background: var(--diligent-color);
+    }
+
+    #type_comment {
+        background: var(--comment-color);
+    }
+
+    #type_kind {
+        background: var(--kind-color);
+    }
+
+    /* header */
+    .header p a {
+    display: none;
+    }
+
+    .tab-cont{
+        width: 100%;
+    }
+
+    /* main */
+    .tab {
+        width: 100%;
+        border-right: 1px solid #c7cbce;
+        border-left: 1px solid #c7cbce;
+        border-bottom: 1px solid #c7cbce;
+    }
+
+
+    /* post-section */
+    .post-section img {
+        display: block;
+        width: 350px;
+        height: 230px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .post-section .box {
+        margin: 14px 14px;
+        padding: 0;
+    }
+
+    .post_right {
+        margin: 30px;
+    }
+
+
+    /* gallery-section */
+    .images--flex {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* issues */
+    .issues{
+        float: left;
+        width: 50%;
+    }
+
+    .issues ol {
+        padding: 25px 30px;
+    }
+
+    .issues ol li {
+        font-size: 1.2rem;
+        margin-bottom: 11px;
+        padding-bottom: 11px;
+        border-bottom: 1px solid #eeeeee;
+        color: var(--tag-color);
+    }
+
+    .issues_con:hover{
+        color:var(--head-color);
+    }
+
+    /* banner(event) */
+    .banner {
+        width: 50%;
+        float: right;
+    }
+
+    .tab-cont{
+        content: "";
+        display: block;
+        overflow: hidden;
+        clear: both;}
+
+    /* footer */
+    strong {
+        height: 50px;
+        color: #7f7f7f;
+        font-size: .65rem;
+        background: #f1f1f1;
+        line-height: 50px;
+    }
+
+}

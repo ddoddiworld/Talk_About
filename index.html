@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>Talk About :: 우리들의 소통공간</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!-- [if It IE 9] <script src="js/html"></script><![endif]-->
+    <!-- [if It IE 9] <script src="js/respond.js"></script><[endif]-->
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="overlay"></div><!--오버레이-->
+        <header>
+            <div class="header flex">
+                <h1><a href="#">Talk About</a></h1>
+                <p id="sidebarCollapse">
+                    <a href="#"><i class="xi-align-justify xi-2x"></i></a>
+                </p>
+                <div class="side-tab-menu" id="sidebar"><!--사이드바-->
+                    <div class="side-tab-menu_catag">
+                        <h2>Category</h2>
+                        <ul>
+                            <li><a href="#post">게시글</a></li>
+                            <li><a href="#gallery">갤러리</a>
+                                <ul class="depth">
+                                    <li><a href="#best">BEST Images</a></li>
+                                    <li><a href="#issues">Today's issues</a></li>
+                                    <li><a href="#banner">Event</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <i class="xi-close xi-2x"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="tab-menu">
+                <div class="tab">
+                    <ul class="tab-btn flex">
+                        <li class="tab-post active"><a href="#">게시글</a></li>
+                        <li class="tab-gallery"><a href="#">갤러리</a></li>
+                    </ul>
+                    <div class="tab-cont">
+                        <section class="post-section" id="post"><!--게시글-->
+                            <h2 class="blind">게시글</h2>
+                            <div class="box"><!--1번 내용-->
+                                <a href="#">
+                                    <div class="flex">
+                                        <img src="images/post1.jpg" alt="post1">
+                                        <div class="post_right">
+                                            <h3 class="title new">여행을 떠나요!</h3>
+                                            <div class="user_info">
+                                                <span>여행좋아</span>
+                                                <ul class="tag flex">
+                                                    <li>&#35;국내여행포스팅</li>
+                                                    <li>&#35;인기게시글</li>
+                                                    <li id="type_diligent">
+                                                        <span class="rich">&#35;2021_BEST</span>
+                                                    </li>
+                                                    <li id="type_comment">
+                                                        <span class="comment">&#35;소통왕</span>
+                                                    </li>
+                                                    <li id="type_kind">
+                                                        <span class="kind">&#35;조회수TOP</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--//1번 내용-->
+                            <div class="box"><!--2번 내용-->
+                                <a href="#">
+                                    <div class="flex">
+                                        <img src="images/post2.jpg" alt="post2">
+                                        <div class="post_right">
+                                            <h3 class="title new">안면도 맛집 탐방</h3>
+                                            <div class="user_info">
+                                                <span>맛집전문가</span>
+                                                <ul class="tag flex">
+                                                    <li>&#35;먹방포스팅</li>
+                                                    <li>&#35;인기게시글</li>
+                                                    <li id="type_kind">
+                                                        <span class="kind">&#35;조회수TOP</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--//2번 내용-->
+                            <div class="box"><!--3번 내용-->
+                                <a href="#">
+                                    <div class="flex">
+                                        <img src="images/post3.jpg" alt="post3">
+                                        <div class="post_right">
+                                            <h3 class="title new">야식엔 역시 라면이죠&#127773;</h3>
+                                            <div class="user_info">
+                                                <span>야식먹는꿀꿀이</span>
+                                                <ul class="tag flex">
+                                                    <li>&#35;먹방포스팅</li>
+                                                    <li id="type_comment">
+                                                        <span class="comment">&#35;소통왕</span>
+                                                    </li>
+                                                    <li id="type_kind">
+                                                        <span class="kind">&#35;조회수TOP</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--//3번 내용-->
+                            <div class="box"><!--4번 내용-->
+                                <a href="#">
+                                    <div class="flex">
+                                        <img src="images/post4.jpg" alt="post4">
+                                        <div class="post_right">
+                                            <h3 class="title new">20220520 오늘의 명언</h3>
+                                            <div class="user_info">
+                                                <span>명언제조기</span>
+                                                <ul class="tag flex">
+                                                    <li>&#35;인기게시글</li>
+                                                    <li id="type_diligent">
+                                                        <span class="rich">&#35;2021_BEST</span>
+                                                    </li>
+                                                    <li id="type_kind">
+                                                        <span class="kind">&#35;조회수TOP</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--//4번 내용-->
+                            <div class="box"><!--5번 내용-->
+                                <a href="#">
+                                    <div class="flex">
+                                        <img src="images/post5.jpg" alt="post5">
+                                        <div class="post_right">
+                                            <h3 class="title new">6월엔 행운만 가득하길&#127808;</h3>
+                                            <div class="user_info">
+                                                <span>빛나는나</span>
+                                                <ul class="tag flex">
+                                                    <li id="type_comment">
+                                                        <span class="comment">&#35;소통왕</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--//5번 내용-->
+                        </section><!--//게시글-->
+                        <section class="gallery-section" id="gallery">
+                            <h2 class="blind">갤러리</h2><!--갤러리-->
+                            <article class="best-section" id="best">
+                                <h2>BEST Images</h2>
+                                <div class="images--flex">
+                                    <a href="#" class="gallery_1">
+                                        <img src="images/gallery.jpg" alt="img1">
+                                    </a>
+                                    <div class="images--flex__inner">
+                                        <a href="#" class="gallery_2">
+                                            <img src="images/gallery.jpg" alt="img2">
+                                        </a>
+                                        <a href="#" class="gallery_3">
+                                            <img src="images/gallery.jpg" alt="img3">
+                                        </a>
+                                        <a href="#" class="gallery_4">
+                                            <img src="images/gallery.jpg" alt="img4">
+                                        </a>
+                                        <a href="#" class="gallery_5">
+                                            <img src="images/gallery.jpg" alt="img5">
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                            <section class="issues" id="issues">
+                                <h2>Today's issues</h2>
+                                <ol>
+                                    <li class="rang_1">
+                                        <a href="#">
+                                            <span class="num">1</span>
+                                            <span class="issues_con">오늘의 소식 1위 바로가기</span>
+                                        </a>
+                                    </li>
+                                    <li class="rang_2">
+                                        <a href="#">
+                                            <span class="num">2</span>
+                                            <span class="issues_con">오늘의 소식 2위 바로가기</span>
+                                        </a>
+                                    </li>
+                                    <li class="rang_3">
+                                        <a href="#">
+                                            <span class="num">3</span>
+                                            <span class="issues_con">오늘의 소식 3위 바로가기</span>
+                                        </a>
+                                    </li>
+                                    <li class="rang_4">
+                                        <a href="#">
+                                            <span class="num">4</span>
+                                            <span class="issues_con">오늘의 소식 4위 바로가기</span>
+                                        </a>
+                                    </li>
+                                    <li class="rang_5">
+                                        <a href="#">
+                                            <span class="num">5</span>
+                                            <span class="issues_con">오늘의 소식 5위 바로가기</span>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </section>
+                            <section class="banner" id="banner">
+                                <h2>Event</h2>
+                                <div class="bxslider event-slider">
+                                    <div>
+                                        <a href="#"><img src="images/banner_animals.jpg" alt="animals"></a>
+                                    </div>
+                                    <div>
+                                        <a href="#"><img src="images/banner_fall.jpg" alt="fall"></a>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                    </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p><strong>&copy;Talk About 2022 | Made by ddoddi</strong></p>
+        </footer>
+    </div>
+
+    <script src="js/html5shiv.js"></script>
+    <!--HTML5 익스플로러 지원 스크립트-->
+    <script src="js/respond.js"></script>
+    <!--미디어쿼리 지원 스크립트-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</body>
+
+</html>
